@@ -27,7 +27,7 @@ class ProductManager {
     let id_product = this.products.length;
 
     // valida que todos los campos requeridos tengan datos
-    if (!title || !description || !price || !thumbnail || !code) {
+    if (!title || !description || !price || !thumbnail || !code || !stock) {
       return "Todos los datos son obligatorios"
     }
 
